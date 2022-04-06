@@ -1,0 +1,15 @@
+com\zerodha\qa\pages\AppsPage.class
+com\zerodha\qa\reports\ExtentReportListner.class
+com\zerodha\qa\pages\DashBoardPage.class
+com\zerodha\qa\util\TestUtils.class
+com\zerodha\qa\pages\OrderPage.class
+com\zerodha\qa\pages\SearchStockPage.class
+com\zerodha\qa\pages\SellStockPage.class
+com\zerodha\qa\pages\ForgetPasswordPage.class
+com\zerodha\qa\base\testBase.class
+com\zerodha\qa\pages\FundsPage.class
+com\zerodha\qa\pages\HoldingsPage.class
+com\zerodha\qa\pages\LoginPage.class
+com\zerodha\qa\pages\BuyStockPage.class
+com\zerodha\qa\pages\PositionsPage.class
+com\zerodha\qa\pages\ProfilePage.class

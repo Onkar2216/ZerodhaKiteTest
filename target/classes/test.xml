@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Zerodha Kite Application Test Automatation Suite" parellal="methods" thread-count="3">
+    <listeners>
+        <listener class-name="com.zerodha.qa.reports.ExtentReportListner"/>
+        <listener class-name="com.zerodha.qa.reports.AnnotationTransformer"/>
+    </listeners>
+    <test  name="Zerodha Kite Application TestCases">
+        <parameter name="UserName" value="Onkar"/>
+        <classes>
+            <class name = "com.zerodha.qa.testCases.LoginPageTest"/>
+            <class name = "com.zerodha.qa.testCases.DashBoardPageTest"/>
+            <class name="com.zerodha.qa.testCases.SearchStockPageTest"/>
+        </classes>
+    </test>
+</suite>
