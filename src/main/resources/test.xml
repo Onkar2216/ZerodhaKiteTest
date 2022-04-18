@@ -8,8 +8,8 @@
         <parameter name="UserName" value="Onkar"/>
         <classes>
             <class name = "com.zerodha.qa.testCases.LoginPageTest"/>
-            <class name = "com.zerodha.qa.testCases.DashBoardPageTest"/>
-            <class name="com.zerodha.qa.testCases.SearchStockPageTest"/>
+<!--            <class name = "com.zerodha.qa.testCases.DashBoardPageTest"/>-->
+<!--            <class name="com.zerodha.qa.testCases.SearchStockPageTest"/>-->
         </classes>
     </test>
 </suite>

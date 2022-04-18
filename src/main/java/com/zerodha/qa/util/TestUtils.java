@@ -1,5 +1,4 @@
 package com.zerodha.qa.util;
-
 import com.zerodha.qa.base.testBase;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.*;
@@ -10,14 +9,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
-import java.util.Date;
 
 public class TestUtils extends testBase {
 

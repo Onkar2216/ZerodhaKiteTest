@@ -42,7 +42,7 @@ public class LoginPageTest extends testBase
     }
 
     @DataProvider
-    public Iterator<Object[]>  getLoginTestCaseData()
+    public Iterator<Object[]>  getLoginTestCaseData() // Object[][]
     {
         ArrayList<Object[]> loginTestData=testUtils.getLoginTestData();
         System.out.print("Login Test Case Data >> "+loginTestData);
@@ -78,7 +78,6 @@ public class LoginPageTest extends testBase
     @AfterMethod
     public void tearDown()
     {
-
         driver.quit();
     }
 }

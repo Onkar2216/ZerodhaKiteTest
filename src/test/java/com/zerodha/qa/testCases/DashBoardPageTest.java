@@ -86,7 +86,6 @@ public class DashBoardPageTest extends testBase
         String profileLink=driver.getCurrentUrl();
         Assert.assertEquals(profileLink,p.getProperty("Profile"));
     }
-
     @AfterMethod
     public void tearDown()
     {

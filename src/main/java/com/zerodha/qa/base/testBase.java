@@ -3,7 +3,6 @@ package com.zerodha.qa.base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import java.io.FileInputStream;
 import java.time.Duration;
 import java.util.Properties;
@@ -31,7 +30,7 @@ public class testBase
         String browser=p.getProperty("browser");
         if (browser.equals("chrome"))
         {
-            System.setProperty("webdriver.chrome.driver", "D:/Software/Java Softwares/Testing/Browsers Driver/Chrome/chromedriver.exe"); // To Set Property
+            System.setProperty("webdriver.chrome.driver", "D:/Software/Java Softwares/Testing/Browsers Driver/Chrome/Chrome 100/chromedriver.exe"); // To Set Property
             driver=new ChromeDriver();
         }
         else if (browser.equals("firefox"))
